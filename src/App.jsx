@@ -23,7 +23,7 @@ function App() {
 export default App;
 
 function Heart(props) {
-  const texture = useLoader(TextureLoader, "public/bug-large.png");
+  const texture = useLoader(TextureLoader, "/bug-large.png");
   texture.repeat.set(0.1, 0.1);
   texture.flipY = false;
   texture.center.set(0.0, 0.1);
